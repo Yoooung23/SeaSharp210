@@ -1,9 +1,15 @@
 using System;
+using System.Security.Cryptography;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Learning03 World!");
+        while (
+        Console.WriteLine("Please enter your height in inches");
+        string lyBaja = Console.ReadLine();
+
+        int userNum = string.Parse(lyBaja);
+        )
     }
 }

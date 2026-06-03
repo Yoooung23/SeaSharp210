@@ -1,9 +1,11 @@
-using System;
+using System.Collections.Generic;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Prep4 World!");
+        List<int> numbers = new List<int>();
+        numbers.Add(37);
+        Console.WriteLine($"numbers");
     }
 }

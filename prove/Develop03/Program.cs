@@ -1,9 +1,11 @@
 using System;
 
+
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Develop03 World!");
+        Journal journal = new Journal("Vault");
+        journal.Display();
     }
 }

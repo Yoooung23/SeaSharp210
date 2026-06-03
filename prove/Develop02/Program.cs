@@ -4,6 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Develop02 World!");
+        string name = classSupport.GetUserInputString("Enter your name: ");
+        Console.WriteLine($"Hello {name}!");
     }
 }

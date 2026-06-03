@@ -7,5 +7,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>disable</Nullable>
   </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\..\toolbelt.cs" />
+  </ItemGroup>
 
 </Project>

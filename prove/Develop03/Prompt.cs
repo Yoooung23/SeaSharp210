@@ -1,9 +1,18 @@
 class Prompt
 {
-    private List<string> prompts { get; set; }
-    public Prompt()
+    public static string GeneratePrompt()
     {
+        string[] prompts = {
+            "Who was the most interesting person I interacted with today?",
+            "What was the best part of my day?",
+            "How did I see the hand of the Lord in my life today?",
+            "What was the strongest emotion I felt today?",
+            "If I had one thing I could do over today, what would it be?",
+        };
 
+        Random random = new Random();
+        int number = random.Next(0, prompts.Length);
+
+        return prompts[number];
     }
-    public void generatePrompt() { }
 }

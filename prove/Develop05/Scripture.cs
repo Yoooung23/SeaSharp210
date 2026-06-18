@@ -1,3 +1,13 @@
+/* 
+    Name: Logan
+    Class: CSE 210
+    Description: This class formats a scripture verse by saving into the Word and Reference classes.
+
+    Sources:
+        1. https://byui-cse.github.io/cse210-course-2023
+        2. Teacher notes...
+        3. My brother-in-law Ben tutored me.
+*/
 public class Scripture
 {
     private static readonly Random _random = new Random();

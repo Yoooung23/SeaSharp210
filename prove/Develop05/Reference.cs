@@ -1,3 +1,13 @@
+/* 
+    Name: Logan
+    Class: CSE 210
+    Description: This class formats a scripture reference to be passed back to "Scripture".
+
+    Sources:
+        1. https://byui-cse.github.io/cse210-course-2023
+        2. Teacher notes...
+        3. My brother-in-law Ben tutored me.
+*/
 public class Reference
 {
     private string _book;

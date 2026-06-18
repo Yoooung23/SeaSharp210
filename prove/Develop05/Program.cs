@@ -1,3 +1,13 @@
+/* 
+    Logan Young
+    CSE 210
+    Description: This program runs a looping menu to let the user memorize the scripture verse.
+
+    Sources:
+        1. https://byui-cse.github.io/cse210-course-2023
+        2. Teacher notes
+        3. My brother-in-law Ben tutored me.
+*/
 using System;
 using Tools;
 

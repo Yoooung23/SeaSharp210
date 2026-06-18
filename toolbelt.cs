@@ -1,6 +1,6 @@
 namespace Tools
 {
-    public class toolbelt
+    public class Toolbelt
     {
         public static string GetUserInputString(string prompt)
         {
